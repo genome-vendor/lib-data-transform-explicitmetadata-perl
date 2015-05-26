@@ -1,0 +1,23 @@
+Source: libdata-transform-explicitmetadata-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7), perl (>= 5.10) | libmodule-build-perl
+Build-Depends-Indep: perl (>= v5.8.0)
+Maintainer: Eddie Belter <ebelter@genome.wustl.edu>
+Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/Data-Transform-ExplicitMetadata/
+
+Package: libdata-transform-explicitmetadata-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, perl (>= v5.8.0)
+Description: Encode Perl values in a json-friendly way
+ Transforms an arbitrarily nested data structure into an analogous data
+ structure composed of only simple scalars, arrayrefs and hashrefs that may be
+ safely JSON-encoded, while retaining all the Perl-specific metadata about
+ typeglobs, blessed and tied references, self-referential data, reference
+ addresses, etc.
+ .
+ With a few exceptions, a copy of the original data structure can be recreated
+ from the encoded version.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
