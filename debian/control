@@ -1,7 +1,7 @@
 Source: libdata-transform-explicitmetadata-perl
 Section: perl
 Priority: optional
-Build-Depends: debhelper (>= 7), perl (>= 5.10) | libmodule-build-perl
+Build-Depends: debhelper (>= 7), perl (>= 5.10) | libmodule-build-perl, libtest-simple-perl (>= 1.001002-1)
 Build-Depends-Indep: perl (>= 5.8.0)
 Maintainer: Eddie Belter <ebelter@genome.wustl.edu>
 Standards-Version: 3.8.3
